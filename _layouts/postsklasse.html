@@ -1,0 +1,44 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<ul class="taxonomy__index">
+  {% assign postsInKlasse = site.posts | group_by_exp: 'post', 'post.klasse' %}
+  {% for klasse in postsInKlasse %}
+    <li>
+      <a href="#{{ klasse.name }}">
+        <strong>{{ klasse.name }}</strong> <span class="taxonomy__count">{{ klasse.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Test</h2>
+{% assign postsByKlasse = site.posts | where: "klasse","11Klasse" %}
+{% for klasse in postsByKlasse %}
+  <section id="{{ klasse.name }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ klasse.name }}</h2>
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in klasse.items %}
+        {% include archive-single.html type=page.entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}
+
+<h2>Default</<h2>
+{% assign postsByKlasse = site.posts | group_by_exp: 'post', 'post.klasse' %}
+{% for klasse in postsByKlasse %}
+  <section id="{{ klasse.name }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ klasse.name }}</h2>
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in klasse.items %}
+        {% include archive-single.html type=page.entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}

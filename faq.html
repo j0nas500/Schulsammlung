@@ -1,0 +1,32 @@
+---
+layout: single
+author_profile: true
+title: F.A.Q.
+
+faq:
+  - question: Was ist das für eine Seite?
+    answer: Dies war zuerst eine rein private Seite nur für mich, um überall den aktuellen Stoff aus der Schule dabei zu haben. Aktuell ist die Webseite öffentlich, damit auch Schulkameraden Zugriff auf meine Zusammenfassungen haben.
+  - question: Warum kommt kein neuer Beitrag?
+    answer: Dies ist ein Ein-Mann Projekt und ich mache dies in meiner Freizeit und ich hoffe du verstehst, dass ich eigtl ungern, meine Freizeit für Schule opfer. Es kann also schon manchmal etwas dauern, bis wieder ein neuer Beitrag hochgeladen wurde.
+  - question: Du hast einen Fehler entdeckt?
+    answer: Dann informiere mich gerne im Kommentarbereich des Beitrags oder sage es mir persönlich, wobei ich ersteres bevorzuge, weil dann auch andere, die sich diese Zusammenfassungen lesen, im Kommentarbereich aufgeklärt werden, dass sich dort ein Fehler eingeschlichen hat.
+  - question: Wer bin ich?
+    answer: Jonas K.
+  - question: Du hast weitere Fragen?
+    answer: Dann melde dich doch gerne bei mir persönlich oder bei [Telegram](http://t.me/j0nas500).
+---
+
+
+
+<section class="faq">
+	<ul>
+		{% for item in page.faq %}
+			<li><a href="#{{ item.question | slugify }}">{{ item.question }}</a></li>
+		{% endfor %}
+	</ul>
+
+	{% for item in page.faq %}
+		<h2 id="{{ item.question | slugify}}">{{ item.question }}<a class="header-link" href="#{{ item.question | slugify }}">#</a></h2>
+		{{ item.answer | markdownify }}
+	{% endfor %}
+</section>
