@@ -22,10 +22,10 @@ environment: production
 
 # Site Settings
 locale                   : "de-DE"
-title                    : "Schulsammlungg"
+title                    : "Schulsammlung"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Schulsammlungg"
+name                     : "Schulsammlung"
 description              : "Zusammenfassungen, Mitschriften und was sonst so noch in der Schule passiert."
 url                      : "https://jonas.mvbuddies.de" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/schule" # the subpath of your site, e.g. "/blog"
