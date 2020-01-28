@@ -16,7 +16,7 @@ comments: true
 toc: true
 # toc_label: "Unique Title"
 # toc_icon: "heart"
-# toc_sticky: true
+toc_sticky: true
 # excerpt_separator: "<!--more-->"
 # link: https://github.com
 # classes: wide
