@@ -1,6 +1,6 @@
 ---
-last_modified_at: 2019-11-27T00:00:00+01:00
-date: 2019-11-14
+last_modified_at: 2020-01-28T00:00:00+01:00
+date: 2020-01-28
 title: "Globale Herausforderungen & Nachhaltige Raumentwicklung"
 categories:
   - Geographie
@@ -13,7 +13,7 @@ comments: true
 # read_time: false
 # related: false
 # share: false
-# toc: true
+toc: true
 # toc_label: "Unique Title"
 # toc_icon: "heart"
 # toc_sticky: true
@@ -83,9 +83,9 @@ Risiken der Weltgemeinschaft:
 
 ## Nachhaltigkeit
 
-=> spielt zunehmend eine Rolle
-=> Bewertung der Landschaft
-=> Naturraumpotenzial
+=> spielt zunehmend eine Rolle<br>
+=> Bewertung der Landschaft<br>
+=> Naturraumpotenzial<br>
 => Sicherung der Ressourcen
 
 dabei wird durch Nutzung von Landschaftsökosystemen das Leistungsvermögen des Landschaftshaushaltes + Regenerationsfähigkeit von Ökosystemen nicht durch Nutzung geschädigt.
@@ -93,9 +93,7 @@ dabei wird durch Nutzung von Landschaftsökosystemen das Leistungsvermögen des 
 
 
 - Begriffsursprung aus Forstwirtschaft
-
-- Widerbelebung des Begriffs 1902: UN-Konferenz von Rio
-
+- Widerbelebung des Begriffs 1902: UN-Konferenz von Rio<br>
   => Begriff erstmals Leitbild für umweltgerecht
 
 
@@ -162,6 +160,6 @@ Ausschnitte der Erdoberfläche durch einheitliche Struktur & identischen Wirkung
 
 
 ## Begriffe:
-Disparität - Gegensatz/sätze
-marginal - Abseits, am Rande
+Disparität - Gegensatz/sätze<br>
+marginal - Abseits, am Rande<br>
 Anthropozän - Zeitalter des Homosapiens
