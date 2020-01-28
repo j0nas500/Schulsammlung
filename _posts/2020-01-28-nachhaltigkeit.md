@@ -5,8 +5,11 @@ title: "Globale Herausforderungen & Nachhaltige Raumentwicklung"
 categories:
   - Geographie
 tags:
-  - Diskussion
-  - Demokratie
+  - Nachhaltigkeit
+  - Globalisierung
+  - Landschaft
+  - Ressourcen
+  - Definitionen
 
 
 comments: true
