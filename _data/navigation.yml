@@ -16,6 +16,8 @@
 main:
   - title: "Schulfächer"
     url: /faecher/
+  - title: "Notenrechner"
+    url: https://rcl.mvbuddies.de
   - title: "itslearning"
     url: https://recknitzcampus.itslearning.com
   - title: "FuxNoten"
