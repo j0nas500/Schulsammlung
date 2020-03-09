@@ -18,16 +18,19 @@ main:
     url: /faecher/
   - title: "Notenrechner"
     url: https://rcl.mvbuddies.de
-  - title: "itslearning"
-    url: https://recknitzcampus.itslearning.com
-  - title: "FuxNoten"
-    url: https://100052.fuxnoten.net/webinfo/
-  - title: "Discord"
-    url: https://discord.gg/en546xQ
-  - title: "Chat"
-    url: http://chat.mvbuddies.de/
   - title: "FAQ"
     url: /faq
+  - title: "Parent Page A"
+    children:
+    - title: "itslearning"
+      url: https://recknitzcampus.itslearning.com
+    - title: "FuxNoten"
+      url: https://100052.fuxnoten.net/webinfo/
+    - title: "Discord"
+      url: https://discord.gg/en546xQ
+    - title: "Chat"
+      url: http://chat.mvbuddies.de/
+  
 
 # sidebar navigation list sample
 sidebar-sample:
